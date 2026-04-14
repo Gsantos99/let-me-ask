@@ -1,0 +1,13 @@
+services:
+  agents-pg:
+    image: pgvector/pgvector:pg18
+    container_name: agents
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin_123
+      POSTGRES_DB: agents
+    ports:
+      - "5435:5432"
+    volumes:
+      - ./docker/setup.sql:/docker-entrypoint-initdb.d/setup.sql
+    
