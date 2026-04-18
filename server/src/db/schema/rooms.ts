@@ -1,4 +1,3 @@
-
 import { pgTable } from 'drizzle-orm/pg-core'
 import { text, timestamp, uuid } from 'drizzle-orm/pg-core'
 
