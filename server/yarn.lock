@@ -519,6 +519,13 @@ drizzle-orm@^0.45.2:
   resolved "https://registry.yarnpkg.com/drizzle-orm/-/drizzle-orm-0.45.2.tgz#37eb5e4e6bd1309cb8d5414de09632d8f82d8a65"
   integrity sha512-kY0BSaTNYWnoDMVoyY8uxmyHjpJW1geOmBMdSSicKo9CIIWkSxMIj2rkeSR51b8KAPB7m+qysjuHme5nKP+E5Q==
 
+drizzle-seed@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/drizzle-seed/-/drizzle-seed-0.3.1.tgz#06866f05baf6470855d58ad7ff630435259552ba"
+  integrity sha512-F/0lgvfOAsqlYoHM/QAGut4xXIOXoE5VoAdv2FIl7DpGYVXlAzKuJO+IphkKUFK3Dz+rFlOsQLnMNrvoQ0cx7g==
+  dependencies:
+    pure-rand "^6.1.0"
+
 esbuild@^0.25.4:
   version "0.25.12"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.25.12.tgz#97a1d041f4ab00c2fce2f838d2b9969a2d2a97a5"
@@ -780,6 +787,11 @@ process-warning@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/process-warning/-/process-warning-5.0.0.tgz#566e0bf79d1dff30a72d8bbbe9e8ecefe8d378d7"
   integrity sha512-a39t9ApHNx2L4+HBnQKqxxHNs1r7KF+Intd8Q/g1bUh6q0WIp9voPXJ/x0j+ZL45KF1pJd9+q2jLIRMfvEshkA==
+
+pure-rand@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/pure-rand/-/pure-rand-6.1.0.tgz#d173cf23258231976ccbdb05247c9787957604f2"
+  integrity sha512-bVWawvoZoBYpp6yIoQtQXHZjmz35RSVHnUOTefl8Vcjr8snTPY1wnpSPMWekcFwbxI6gtmT7rSYPFvz71ldiOA==
 
 quick-format-unescaped@^4.0.3:
   version "4.0.4"
